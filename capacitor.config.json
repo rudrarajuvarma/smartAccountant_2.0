@@ -1,0 +1,7 @@
+{
+  "appId": "com.navi.smartaccountant_v2",
+  "appName": "smartaccountant_v2",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build"
+}

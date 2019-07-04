@@ -1,0 +1,362 @@
+@import '~antd/dist/antd.css';
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+}
+
+img #icon {
+  width: 26px
+}
+
+.change::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #555555;
+}
+
+.change:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #555555;
+  opacity: 1;
+}
+
+.change::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #555555;
+  opacity: 1;
+}
+
+.change:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #555555;
+}
+
+.change_AddCat::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #c8c8c8;
+}
+
+.change_AddCat:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #c8c8c8;
+  opacity: 1;
+}
+
+.change_AddCat::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #c8c8c8;
+  opacity: 1;
+}
+
+.change_AddCat:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c8c8c8;
+}
+
+.ant-btn {
+  height: 33px;
+}
+
+.components_body {
+  text-align: center;
+  padding-bottom: 80px
+}
+
+/* hr{
+ 
+  background-color:#e6eaf2;
+} */
+
+hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #f1f1f1
+}
+
+div {
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+label {
+  font-size: 180%;
+  font-weight: bold;
+}
+
+/* ----------------------------in sign in page---------------------- */
+
+.ant-carousel .slick-slide {
+  background: no-repeat;
+  background-size: 100% 100%;
+  height: 400px;
+}
+
+.ant-carousel {
+  background: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(./images/carosel_bg.png);
+  height: 400px;
+}
+
+/* .slick-track{
+    width:100%;
+    height: 300px;
+    text-align: center;
+  } */
+
+button#signin {
+  color: white;
+  border-radius: 40px;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: none;
+  box-shadow: 3px 6px 6px #c9dcfb;
+}
+
+.ant-input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+     
+}
+.ant-input#signin{
+  padding-left: 40px !important  
+
+}
+/* .ant-input-affix-wrapper .ant-input:not(:first-child) {
+  padding-left: 30px;
+  border: none;
+  outline: none;
+  border-bottom:1px solid #000000;
+  border-radius: 0%;
+  
+} */
+
+/* ----------------------------in sign in page---------------------- */
+
+/* ----------------------------in home in page---------------------- */
+
+.header_of_home_page {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  padding-top: 15px;
+}
+
+.footer_div {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  font-size: 40px;
+  color: #000000;
+  background-image: url("./images/bottonNav.png");
+  background-size: 100% 100%;
+  z-index: 1000;
+  padding-bottom: 18px
+}
+
+.ant-drawer-body {
+  margin: 0;
+  padding: 0
+}
+
+button#addDeteails {
+  background-color: #5a7af0;
+  border-radius: 45px;
+  border: none;
+  width: 65px;
+  height: 65px;
+  outline: none;
+  box-shadow: 3px 6px 6px #c9dcfb;
+}
+
+.days_row {
+  font-size: 50%;
+  color: #c9cdd6
+}
+
+/* ----------------------------in home in page---------------------- */
+
+/* -------------------------------add details page ---------------------- */
+
+.ant-calendar-picker {
+  width: 100%;
+}
+
+.ant-calendar {
+  position: relative;
+  margin: auto;
+  width: 280px;
+}
+
+.ant-input:focus {
+  box-shadow: none;
+}
+
+.ant-calendar-picker-icon {
+  display: none;
+}
+
+.anticon[tabindex] {
+  display: none;
+}
+
+.ant-calendar-picker-input {
+  height: 50px !important;
+  border: none;
+  /* padding:0 */
+}
+
+.ant-btn-group>.ant-btn:first-child:not(:last-child), .ant-btn-group>span:first-child:not(:last-child)>.ant-btn {
+  /* border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px; */
+  border-radius: 20px;
+  border: none;
+}
+
+.ant-btn-group>.ant-btn:last-child:not(:first-child), .ant-btn-group>span:last-child:not(:first-child)>.ant-btn {
+  /* border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  border-radius: 20px;
+  border: none;
+}
+
+.ant-btn-group {
+  font-size: "100%"
+}
+
+/* -------------------------------add details page ---------------------- */
+
+/* -----------------------------------add categories----------------------- */
+
+.iconsStyles {
+  width: 50px
+}
+
+/* -----------------------------------add categories----------------------- */
+
+@media only screen and (max-width: 350px) {
+  .iconsStyles {
+    width: 40px
+  }
+}
+
+/* ----------------------------------budget-------------------------------- */
+
+.heaser_of_budget_page {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* ----------------------------------budget-------------------------------- */
+
+/* --------------------------------------calender----------------------------- */
+
+.ant-calendar-picker-input {
+  padding-right: 0;
+}
+
+/* --------------------------------------calender----------------------------- */
+
+/* --------------------------------------chart-------------------------------------- */
+
+.ant-select-selection--single {
+  border: none
+}
+
+.ant-select-selection:focus {
+  box-shadow: none !important
+}
+.ant-select-selection-selected-value{
+
+  font-size: 155% !important
+}
+
+/* --------------------------------------chart-------------------------------------- */
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+/* ----------------------------------------------budget---------------------------------- */
+
+.Checkbox {
+  outline: none !important;
+}
+
+/* .ant-progress-status-success .ant-progress-bg {
+  background-color:"red" ! important;
+} */
+
+/* ----------------------------------------------budget---------------------------------- */
+
+/* ------------------------------------------bills-------------------------------------- */
+
+.paybillsStyles {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #83B4F7;
+  height: 50px;
+  border: none;
+  color: #fff;
+  outline: none;
+}
+
+.billsFonts {
+  font-size: 50%;
+  color: #c8c8c8
+}
+
+.billsDatesStyles {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f6f6f6;
+  font-size: 100%;
+  text-align:left;
+  position: sticky;
+  top:60px;
+  z-index: 1000;
+}
+
+/* ------------------------------------------bills-------------------------------------- */
+
+.header {
+  text-align: center;
+  height: 60px;
+}
+
+.settingsRows {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: "left"
+}
+
+.sideBorder {
+  border-right: solid 1px #f1f1f1
+}
+
+
+.ant-empty{
+  margin:0
+}
+
